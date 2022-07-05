@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+@font-face{
+    font-family:"walk";
+    src: url(../fonts/Walkway_Black.ttf)
+}
+
+/*
+GLOBALES
+*/
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-clinic{
+    width:180px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+.section-img{
+    width:100%;
+    height:450px;
+    background-color:rgb(224, 224, 224);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.section-img h1{
+    position: absolute;
+    top: 380px;
+    color: white;
+    font-size: 1.3rem;
+    font-family:"walk";
+    letter-spacing: 1.8px;
+    margin-left: 18px;
+}
+
+.line{
+    width: 127px;
+    height: 2px;
+    background-color:white;
+    position: absolute;
+    top: 435px;
+}
+
+.img{
+    width:100%;
+    height:450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.flex-socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.item-link{
+    width:32px;
+    height:32px;
+    background-color:rgb(0, 156, 253);
+    border-radius:50%;
+    margin-left:15px;
+}
+
+
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    width: 90%;
+    height:80px;
+    margin: auto;
+    border-radius:50px;
+    margin-top: -40px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.192);
+    position: relative;
+}
+
+.nav-ul li a{
+    text-decoration: none;
+    color: rgb(0, 156, 253);
+    font-size: 0.9rem;
+    margin: 10px;
+    font-family:"walk";
+}
+
+.sect-page h2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    color: rgb(0, 156, 253);
+    font-family:"walk";
+    letter-spacing: 1.5px;
+    font-size:1.1rem;
+}
+
+.sect-page p{
+    text-align: center;
+    color: grey;
+}
+
+.sect-benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.benefits{
+    margin-bottom: 45px;
+}
+
+.benefits p{
+    color: rgb(0, 156, 253);
+    font-family:"walk";
+    text-align: center;
+    font-size:1.5rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.benefits-item{
+    width: 140px;
+    height: 140px;
+    background-color:white;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius:50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.192);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width:80px;
+    margin-top: 10px;
+}
+
+.flex-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.items-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-one{
+    width: 220px;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.image-two{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+
+.image-thre{
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: grey;
+}
+
+.flex-image{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content:center;
+    width:100%;
+}
+
+.flex-inst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-section h3{
+    font-size: 1.5rem;
+    color: rgb(0, 156, 253);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.info-section p{
+    font-size: 1.1rem;
+    color: grey;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info-section-button{
+    background-color:transparent;
+    border: 1px solid black;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.flex-personal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    background-color:rgb(227, 227, 227);
+    height:420px;
+}
+
+.workers{
+    width: 55%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: 45%;
+    height: 400px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2{
+    text-align: right;
+    font-size:1.4rem;
+    color: rgb(0, 156, 253);
+    margin-right: 10px;
+}
+
+.title p{
+    text-align: right;
+    font-size:0.8rem;
+    color:grey;
+    margin-top:15px;
+    margin-right: 10px;
+}
+
+.list{
+    width:45%;
+    height:100%;
+    margin-top: 30px;
+    
+}
+
+.list-two{
+    width:45%;
+    height:100%;
+    background-color:red;
+}
+
+.person{
+    width: 100%;
+    height: 140px;
+    background-color:white;
+    border-radius:12px;
+    margin-bottom: 10px;
+}
+
+.persontwo{
+    width: 100%;
+    height: 110px;
+    background-color:white;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.persontwo h3{
+    color: green;
+    font-size: 0.5rem;
+    text-align:center;
+    margin-top: 12px;
+}
+
+.persontwo p{
+    color: grey;
+    font-size: 0.5rem;
+    text-align:center;
+}
+
+.person h3{
+    color: green;
+    font-size: 0.5rem;
+    text-align:center;
+    margin-top: 12px;
+}
+
+.person p{
+    color: grey;
+    font-size: 0.5rem;
+    text-align:center;
+}
+
+.pic{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(211, 211, 211);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.pic-two{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(211, 211, 211);
+}
