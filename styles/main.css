@@ -75,7 +75,20 @@ GLOBALES
     height:32px;
     background-color:#6ba2ea;
     border-radius:50%;
-    margin-left:15px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2973d5;
+}
+
+.wss{
+    width:22px;
+}
+
+.fb{
+    width:18px;
 }
 
 
@@ -94,12 +107,22 @@ GLOBALES
     position: relative;
 }
 
-.nav-ul li a{
+.desactive{
+    text-decoration: none;
+    color:#94c9aa;
+    font-size: 0.9rem;
+    margin: 10px;
+    font-family:"walk";
+    
+}
+
+.active{
     text-decoration: none;
     color: #6ba2ea;
     font-size: 0.9rem;
     margin: 10px;
     font-family:"walk";
+    border-bottom: 1px solid #6ba2ea;
 }
 
 .sect-page h2{
@@ -162,6 +185,7 @@ GLOBALES
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .items-flex{
@@ -201,6 +225,7 @@ GLOBALES
     object-fit: cover;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    
 }
 
 .image-two{
@@ -225,6 +250,7 @@ GLOBALES
     align-items: right;
     justify-content:center;
     width:100%;
+    margin-bottom: 80px;
 }
 
 .flex-inst{
@@ -237,8 +263,9 @@ GLOBALES
 .info-section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
+    margin-left:35px;
 }
 
 .info-section h3{
@@ -246,7 +273,7 @@ GLOBALES
     color: #6ba2ea;
     margin-top: 50px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     font-family:"walk";
     letter-spacing: 2px;
 }
@@ -255,8 +282,8 @@ GLOBALES
     font-size: 1.0rem;
     color: rgb(186, 186, 186);
     margin-bottom: 60px;
-    text-align: center;
-    width: 70%;
+    text-align: left;
+    width: 80%;
 }
 
 .info-section-button{
@@ -456,7 +483,7 @@ GLOBALES
     height: 375px;
     border: 1px solid #6ba2ea;
     position: absolute;
-    top: 3152px;
+    top: 3240px;
     left:25px;
     z-index: -1;
     border-radius:25px;
@@ -492,6 +519,8 @@ GLOBALES
     flex-direction: column;
     align-items: center;
     justify-content:center;
+    margin-bottom: 90px;
+    text-decoration: none;
 }
 
 .volver p{
@@ -506,3 +535,29 @@ GLOBALES
     display: block;
     margin: 0 auto;
 }
+
+
+.fut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-foot{
+    height:220px;
+    width:50%;
+    background-color:#6ba2ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-foot-two{
+    height:220px;
+    width:50%;
+    background-color:#94c9aa;
+}
+
+
+
+
