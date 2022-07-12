@@ -27,6 +27,62 @@ GLOBALES
     z-index: -1;
 }
 
+.ondados{
+    width: 100px;
+    position: absolute;
+    top: 670px;
+    right:0px;
+    z-index: -1;
+}
+
+.ondados-3{
+    width: 100px;
+    position: absolute;
+    top: 1500px;
+    left:0px;
+    z-index: -1;
+}
+
+.ondados-4{
+    width: 100px;
+    position: absolute;
+    top: 3420px;
+    left:0px;
+    z-index: -1;
+}
+
+.ondados-5{
+    width: 100px;
+    position: absolute;
+    top: 5320px;
+    left:0px;
+    z-index: -1;
+}
+
+.ondatres{
+    width: 100px;
+    position: absolute;
+    top: 2470px;
+    right:0px;
+    z-index: -1;
+}
+
+.ondacuatro{
+    width: 100px;
+    position: absolute;
+    top: 4380px;
+    right:0px;
+    z-index: -1;
+}
+
+.ondacinc{
+    width: 100px;
+    position: absolute;
+    top: 6080px;
+    right:0px;
+    z-index: -1;
+}
+
 .bg-two{
     position: absolute;
     z-index: -0;
@@ -308,6 +364,33 @@ GLOBALES
     text-align: left;
     width: 80%;
 }
+
+.info-section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    margin-right:35px;
+}
+
+.info-section-two h3{
+    font-size: 1.5rem;
+    color: #6ba2ea;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-family:"walk";
+    letter-spacing: 2px;
+}
+
+.info-section-two p{
+    font-size: 1.0rem;
+    color: rgb(186, 186, 186);
+    margin-bottom: 60px;
+    text-align: right;
+}
+
+
 
 .info-section-button{
     background-color:transparent;
@@ -675,7 +758,7 @@ GLOBALES
 .map-google{
     width:100%;
     height:250px;
-    background-color: #2973d5;
+    background-color: rgb(222, 222, 222);
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
