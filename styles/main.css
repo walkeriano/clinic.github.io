@@ -14,6 +14,11 @@
 GLOBALES
 */
 
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
 
 .header{
     width: 100%;
@@ -25,9 +30,9 @@ GLOBALES
 }
 
 .logo-clinic{
-    width:180px;
+    width:200px;
     object-fit: cover;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .section-img{
@@ -67,7 +72,7 @@ GLOBALES
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .item-link{
@@ -113,7 +118,7 @@ GLOBALES
     font-size: 0.9rem;
     margin: 10px;
     font-family:"walk";
-    
+    letter-spacing: 1px;
 }
 
 .active{
@@ -123,6 +128,7 @@ GLOBALES
     margin: 10px;
     font-family:"walk";
     border-bottom: 1px solid #6ba2ea;
+    letter-spacing: 1px;
 }
 
 .sect-page h2{
@@ -156,9 +162,13 @@ GLOBALES
     color: #6ba2ea;
     text-align: center;
     font-size:1.5rem;
-    margin-top: 10px;
+    margin-top: 5px;
     font-family:"walk";
     letter-spacing: 2px;
+}
+
+.benefits p:nth-child(3){
+    color: #94c9aa;
 }
 
 .benefits-item{
@@ -255,7 +265,7 @@ GLOBALES
 
 .flex-inst{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     width: 100%;
 }
@@ -293,6 +303,15 @@ GLOBALES
     border-radius: 20px;
     margin-left: 30px;
     color: #6ba2ea;
+}
+
+.info-section-button:hover{
+    background-color:#6ba2ea;
+    border: 1px solid #6ba2ea;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    color: white;
 }
 
 .flex-personal{
@@ -541,23 +560,141 @@ GLOBALES
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .box-foot{
-    height:220px;
-    width:50%;
+    height:280px;
+    width:100%;
     background-color:#6ba2ea;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding-left:20px;
 }
 
 .box-foot-two{
-    height:220px;
-    width:50%;
+    height:40px;
+    width:100%;
     background-color:#94c9aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial;
+}
+
+.box-foot-two p{
+    letter-spacing: 0.5px;
+    font-size:0.7rem;
+}
+
+.box-foot-two p:nth-child(2){
+    letter-spacing: 0.5px;
+    font-size:0.7rem;
+    margin-left:5px;
+    font-weight:bold !important;
+}
+
+.logo-clinic-footer{
+    width:140px;
+    border-radius:12px;
+}
+
+.cont-logo{
+    width: 160px;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:12px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.cont-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.cont-item p{
+    color: white;
+    font-family: Arial;
+    letter-spacing: 0.3px;
 }
 
 
+.icon-fut{
+    width:20px;
+    margin-right: 5px;
+}
 
+.box-one{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+
+}
+
+.box-two{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+}
+
+.box-tre{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+}
+
+
+.flex-boxes{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom: 55px;
+}
+
+
+.map-google{
+    width:100%;
+    height:250px;
+    background-color: #2973d5;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.flex-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px;
+}
+
+.icon-wss-contact{
+    width:40px;
+    display:block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.flex-socialmedia-foot{
+    display:flex;
+    margin-top:20px;
+   
+
+}
 
