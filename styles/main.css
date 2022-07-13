@@ -23,7 +23,7 @@ GLOBALES
 .onda{
     width: 140px;
     position: absolute;
-    top: 3545px;
+    top: 3050px;
     z-index: -1;
 }
 
@@ -775,7 +775,7 @@ GLOBALES
 
     .onda{
         width: 240px;
-        top: 3220px;
+        top: 2850px;
     }
 
     .ondados{
